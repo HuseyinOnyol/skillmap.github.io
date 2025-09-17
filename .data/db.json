@@ -1,0 +1,126 @@
+{
+  "organizations": [
+    {
+      "id": "org-owner",
+      "name": "InoPeak Technologies",
+      "type": "owner",
+      "created_at": "2025-09-16T08:50:28.850Z"
+    },
+    {
+      "id": "org-partner-a",
+      "name": "TechPartner A",
+      "type": "partner",
+      "created_at": "2025-09-16T08:50:28.850Z"
+    }
+  ],
+  "tags": [
+    {
+      "id": "t-mod-fi",
+      "category": "module",
+      "key": "SAP-FI",
+      "display": "SAP FI",
+      "active": true,
+      "created_at": "2025-09-16T08:50:28.850Z"
+    },
+    {
+      "id": "t-mod-sd",
+      "category": "module",
+      "key": "SAP-SD",
+      "display": "SAP SD",
+      "active": true,
+      "created_at": "2025-09-16T08:50:28.850Z"
+    },
+    {
+      "id": "t-tech-abap",
+      "category": "tech",
+      "key": "ABAP",
+      "display": "ABAP",
+      "active": true,
+      "created_at": "2025-09-16T08:50:28.850Z"
+    },
+    {
+      "id": "t-tech-fiori",
+      "category": "tech",
+      "key": "Fiori",
+      "display": "Fiori",
+      "active": true,
+      "created_at": "2025-09-16T08:50:28.850Z"
+    },
+    {
+      "id": "t-tech-rap",
+      "category": "tech",
+      "key": "RAP",
+      "display": "RAP",
+      "active": true,
+      "created_at": "2025-09-16T08:50:28.850Z"
+    }
+  ],
+  "profiles": [
+    {
+      "id": "p-1",
+      "organization_id": "org-partner-a",
+      "first_name": "Ahmet",
+      "last_name": "Yılmaz",
+      "email": "ahmet@example.com",
+      "phone": null,
+      "city": "İstanbul",
+      "country": "Turkey",
+      "title": "Senior SAP ABAP Developer",
+      "seniority_years": 8,
+      "work_scope": "FullCycle",
+      "summary": "ABAP, RAP ve Fiori ile uçtan uca geliştirme deneyimi.",
+      "visibility_level": "public_masked",
+      "status": "published",
+      "created_at": "2025-09-16T08:50:28.850Z",
+      "updated_at": "2025-09-16T08:50:28.850Z",
+      "tags": [
+        {
+          "id": "t-tech-abap"
+        },
+        {
+          "id": "t-tech-rap"
+        }
+      ]
+    },
+    {
+      "first_name": "huseyin",
+      "last_name": "huseyin",
+      "email": "admin@inopeak.com",
+      "phone": "( 542 ) 483 55 38",
+      "city": "Menteşe",
+      "country": "Turkey",
+      "title": "sap abap",
+      "seniority_years": 1,
+      "work_scope": "FullCycle",
+      "summary": "",
+      "organization_id": "org-owner",
+      "visibility_level": "partner_only",
+      "status": "draft",
+      "id": "bbbdbd5c-dded-4710-89a2-0d60e4313627",
+      "created_at": "2025-09-16T12:38:34.786Z",
+      "updated_at": "2025-09-16T12:38:34.786Z"
+    }
+  ],
+  "profile_tags": [],
+  "experiences": [],
+  "users": [
+    {
+      "name": "huseyin test",
+      "email": "huseyintest@gmail.com",
+      "role": "partner_admin",
+      "organization_id": "org-partner-a",
+      "id": "0955ce47-de71-4b2f-86b9-c6a8d9395c13",
+      "created_at": "2025-09-16T13:20:48.797Z",
+      "last_login_at": null
+    },
+    {
+      "name": " huseyin test",
+      "email": "huseyintest@gmail.com",
+      "role": "partner_user",
+      "organization_id": "org-partner-a",
+      "id": "997402a4-09b2-49ea-9b25-72e0010b02be",
+      "created_at": "2025-09-16T13:21:15.754Z",
+      "last_login_at": null
+    }
+  ]
+}
